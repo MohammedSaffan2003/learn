@@ -1,0 +1,188 @@
+.home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('../../../public/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content .btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .features .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .features .feature-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .features .feature-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .features .feature-box h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .features .feature-box p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+/* feature image sizes */
+.feature-image {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+  /* You can also use object-position to adjust the position of the image inside the container */
+  object-position: center;
+}
+
+.feature-container {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .feature-image, .feature-container {
+    height: 150px; /* Smaller height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-image, .feature-container {
+    height: 100px; /* Even smaller height for very small screens */
+  }
+}
+
+
+
+
+  /* Popular Courses Section */
+  .popular-courses {
+    padding: 50px 0;
+  }
+  
+  .popular-courses .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .popular-courses .course-card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .popular-courses .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .popular-courses .course-card h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .popular-courses .course-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .popular-courses .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .testimonials .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .testimonials .testimonial-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials .testimonial-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials .testimonial-box p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  .testimonials .testimonial-box h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta .btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+  

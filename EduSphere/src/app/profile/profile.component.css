@@ -1,0 +1,11 @@
+.profile {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .profile h2 {
+    margin-top: 0;
+  }
+  

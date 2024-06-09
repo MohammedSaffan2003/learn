@@ -1,0 +1,9 @@
+<div class="profile">
+    <h5>{{ user.name }}</h5>
+    <p>Email: {{ user.email }}</p>
+    <h6>Enrolled Courses:</h6>
+    <ul>
+      <li *ngFor="let course of user.courses">{{ course }}</li>
+    </ul>
+  </div>
+  
