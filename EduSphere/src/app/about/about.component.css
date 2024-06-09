@@ -27,11 +27,16 @@
     margin-bottom: 30px;
   }
   
-  .about-image {
+  /* .about-image {
     width: 100%;
     height: auto;
     border-radius: 10px;
-  }
+  } */
 
+  .about-image {
+    width: auto;
+    height: 500px;
+    border-radius: 30px;
+  }
   
   
