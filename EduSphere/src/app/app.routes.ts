@@ -9,9 +9,19 @@ export const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'courses', loadChildren: () => import('./courses/courses.module').then(m => m.CoursesModule) },
-  { path: 'profile', loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule) },
+  { 
+    path: 'courses', 
+    loadChildren: () => import('./courses/courses.routes').then(m => m.COURSES_ROUTES) 
+  },
+  { 
+    path: 'profile', 
+    loadChildren: () => import('./profile/profile.routes').then(m => m.PROFILE_ROUTES) 
+  },
+ 
 { path: '**', redirectTo: '' }
 ];
 
     
+
+// { path: 'courses', loadChildren: () => import('./courses/courses.module').then(m => m.CoursesModule) },
+// { path: 'profile', loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule) },

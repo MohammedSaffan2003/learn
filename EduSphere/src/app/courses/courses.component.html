@@ -1,1 +1,15 @@
-<p>courses works!</p>
+<div class="container mt-5">
+    <h2>Our Courses</h2>
+    <div class="row">
+      <div *ngFor="let course of courses" class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ course.title }}</h5>
+            <p class="card-text">{{ course.description }}</p>
+            <button (click)="viewCourseDetail(course.id)" class="btn btn-primary">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,42 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .btn {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+  }
+  
